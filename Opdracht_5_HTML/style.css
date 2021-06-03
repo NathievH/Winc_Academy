@@ -1,0 +1,59 @@
+body{
+    color: rgb(2, 2, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(254, 254, 255);
+    background-image: url(img/spring-background.jpg);
+}
+.black-border {
+    border: 3px solid rgb(1, 6, 54);
+    background-color: rgb(203, 212, 253); 
+    text-align: start;
+    padding-top: 5px;
+    padding-bottom: 5x;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#green-background {
+    background-color: rgb(93, 107, 138);
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hoofd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold; 
+    text-align: center; 
+}
+h3{ 
+    text-decoration: underline;
+}
+nav{
+ margin: auto;
+}
+.begin {
+    text-align: start;
+    font: bold;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.pic{ 
+    text-align: center;
+}
+.schuin {
+    font-style: italic;
+}
+.horizontaal{
+        display: inline;
+        padding-inline: 20px;
+        width: 30%;
+        margin: auto;
+}
+a{
+color: black; 
+}
+
+.opsomming{
+    list-style: none;
+    padding-left: 15px;
+}
