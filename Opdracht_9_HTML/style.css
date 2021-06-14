@@ -1,0 +1,83 @@
+body{
+    color: rgb(2, 2, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(254, 254, 255);
+    background-image: url(img/spring-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.black-border {
+    border: 3px solid rgb(1, 6, 54);
+    background-color: rgb(203, 212, 253); 
+    text-align: start;
+    padding-top: 5px;
+    padding-bottom: 5x;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#green-background {
+    background-color: rgb(93, 107, 138);
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hoofd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold; 
+    text-align: center; 
+}
+h3{ 
+    text-decoration: underline;
+}
+nav{
+ margin: auto;
+}
+.begin {
+    text-align: start;
+    font: bold;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.pic{ 
+    text-align: center;
+}
+.schuin {
+    font-style: italic;
+}
+.horizontaal li{
+        display: inline;
+        margin: auto;
+        padding: 5%;
+}
+a{
+    color: black;
+}
+.opsomming{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.afstand { 
+    margin-left: 25px;
+    
+}
+@media (min-width: 2040px) {
+ body { 
+     background-image:none;
+     background-color: rgb(255, 191, 255);
+     font-size: 15px;
+     line-height: 2;
+     color: yellow;
+ }
+ h1{ 
+    color: tomato;   
+ }
+}
+.receptenform {
+    font-size: 12px;
+    line-height: 1.5;
+    padding-left: 5%;
+}

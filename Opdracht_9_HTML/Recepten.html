@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>recepten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <p class="black-border">Recepten delen doe je hier! Vul onderstaande formulier in en laat andere chefs zien wat
+            jij in huis hebt:</p>
+        <div class=" receptenform">
+            <form name="contact" method="POST" data-netlify="true">
+                <label for="Name">Naam:</label><br>
+                <input type="text" id="Name" name="Name"><br>
+                <label for="Mail"> Emailadress:</label><br>
+                <input type="email" id="Mail" name="Mail"><br>
+                <label for="tel"> Telefoonnummer:</label><br>
+                <input type="number" id="Telnummer" name="Telnummer"><br>
+                <label for="Geboortedatum"> Geboortedatum:</label><br>
+                <input type="date" id="Geboortedatum" name="Geboortedatum"><br><br>
+                <label for="Keuze">Favoriete Cuisine:</label><br>
+                <input type="checkbox" id="Frans" name="Eten"> Frans
+                <input type="checkbox" id="Spaans" name="Eten"> Spaans
+                <input type="checkbox" id="Italiaans" name="Eten"> Italiaans
+                <input type="checkbox" id="Arabisch" name="Eten"> Arabisch <br>
+                <label for="tel"> Favoriete kleur schort:</label><br>
+                <input type="color" id="Favcolor" name="Favorietekleur"><br>
+                <label for="Ervaring"> Jou biografie: </label><br>
+                <textarea name="biografie" id="" cols="70" rows="7"></textarea><br>
+                <label for="Recept"> Upload je laatste recept:</label><br>
+                <input type="file" id="file" name="receptfile"><br>
+                <label for="tel"> Deel je link naar je recept:</label><br>
+                <input type="url" id="url" name="url"><br><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+
+    </main>
+    <nav>
+        <p class="afstand"><a href="index.html">Terug naar home.</a></p>
+    </nav>
+    <br>
+    <hr>
+    <footer id="green-background">
+        <p>Made by Nathalie </p>
+    </footer>
+</body>
+
+</html>
