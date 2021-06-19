@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="links"><img width="30" src="img/shaka1.jpg"></div>
+        <div class="logo">
+            <h1>WaveHunters</h1>
+            <h5>Never try Never know!</h5>
+        </div>
+        <div class="rechts"><img width="30" src="img/shaka2.jpg"></div>
+    </header>
+    <nav class="balk">
+        <div>
+            <h3>
+                <ul class="navbalk">
+                    <li> <a href="wavehunters.html" target="_self">Home</a></li>
+                    <li> <a href="Aboutus.html" target="_self">About us</a></li>
+                    <li> <a href="Offering.html" target="_self">Offering</a></li>
+                    <li> <a href="surfspots.html" target="_self">Surfspots</a></li>
+                    <li> <a href="Ask us a question.html" target="_self">Contact</a></li>
+                </ul>
+            </h3>
+        </div>
+    </nav>
+
+    <main>
+        <div class="border">
+            <h2>Questions? You can ask us anything down below:</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required />
+                </div><br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required />
+                </div><br>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" />
+                </div><br>
+                <div>
+                    <label for="date">Birthdate</label>
+                    <input type="date" name="date" id="date" min="2000-01-01" />
+                </div><br>
+                <div> Question about: <br>
+                    <label for="Surflesson">Surflesson</label>
+                    <input type="checkbox" name="Surflesson" id="Surflesson" />
+                    <label for="Surftrip">Surftrip</label>
+                    <input type="checkbox" name="Surftrip" id="Surftrip" />
+                    <label for="Surfspots">Surfspots</label>
+                    <input type="checkbox" name="Surfspots" id="Surfspots" />
+                    <label for="Other">Other</label>
+                    <input type="checkbox" name="Other" id="Other" />
+                </div><br>
+                <div>
+                    <label for="color">Surflevel (green=beginner/intermediate=oranje/pro=blue)</label>
+                    <input type="color" name="color" id="color" />
+                </div><br>
+                <div>
+                    <label for="ask">Your question</label>
+                    <textarea id="ask" name="ask" cols="40" rows="5"></textarea>
+                </div><br>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main> <br>
+
+    <footer>
+        Copyright 2021- WavehuntersBV.
+    </footer>
+</body>
+
+</html>
