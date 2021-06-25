@@ -1,56 +1,54 @@
 //Checking if a number is big 
 const check = function (number) {
     if (number > 100) {
-        console.log("true")
+        return true; 
     }
-    else (number < 100)
-    { console.log("false") }
+    else 
+    {
+return false;
+    }
+};
 
-    return check;
 
-}
+console.log (check(150))
+console.log (check(120))
+console.log (check(70))
+console.log (check(45))
 
-const number = 150;
 
-check();
 
 //bouncer at the club 
 
-const total = 250
-const age = 25
 
-const brendamaximum = function () {
+const brendadecides = function (maximum, current, age) {
 
     if (age < 18) {
-        console.log("this club is only for adults")
+        return "this is a club for adults";
     }
-    else (age >= 18)
-    {
-        console.log("you are old enough to enter lets see how busy it is")
+    if (current < 2000) {
+        return "you can come in";
     }
+    if (maximum > 2000) {
+        return "its too busy come back later";
+    }
+};
 
-    if (total < 250) {
-        console.log("you can come in")
-    }
-    else if (total > 249)
-    {
-        console.log("its too busy come back later")
-    }
-    return age;
-}
+console.log (brendadecides(2000,500,15))
 
-brendamaximum();
 
 // calculating the avarage 
 
-const average = function (nbr1,nbr2,nbr3,nbr4,nbr5) {
-    sum = ( nbr1 + nbr2 + nbr3 + nbr4 + nbr5 / 5 );
-    console.log (sum);
-    return sum
-}
+const school = function (nbr1,nbr2,nbr3,nbr4,nbr5) {
+    const sum = nbr1 + nbr2 + nbr3 + nbr4 + nbr5;
+    const average = sum / 5; 
+    const round = Math.round(average)
+    return round
+};
 
-average (8,8,8,8,8); 
-Math.round (sum) = sum
-console.log (sum)
+console.log (school (8,7,6,8,8));
+console.log (school (8,8,8,8,8));
+console.log (school (8,7,6,5,9));
+console.log (school (4,7,6,10,8)); 
+
 
 
