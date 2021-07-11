@@ -1,0 +1,87 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+   
+  
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    transition: all ease 0.30s;
+  }
+
+.dropdowncontent ul {
+    padding: 10px;
+}
+.dropdowncontent li {
+    float: none;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropbtn {
+    color: transparent;
+}
+
+.dropdowncontent li:hover {
+    background-color:transparent;
+}
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+.wit {
+      background: white;
+      padding: 20px,20px;
+}
+button {
+      width: 100px;
+      height: 50px;
+      font-weight: bold;
+      font-size: 20px;
+      border: 0px;
+      cursor: pointer;
+}
+.rood {
+    background-color: red;
+}
+.oranje {
+    background-color: orangered;
+}
+.geel {
+    background-color: yellow;
+}
+.groen {
+    background-color: green;
+}
+.blauw {
+    background-color: blue;
+}
+.red-background {
+    background-color: red;
+}
+
+.text {
+    font-size: 72px;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 85vh;
+  }
